@@ -8,6 +8,8 @@ import { Pet } from "@cdktf/provider-random/lib/pet";
 class MyStack extends TerraformStack {
   constructor(scope: Construct, id: string) {
     super(scope, id);
+    
+    console.log("ok");
 
     // define resources here
     new RandomProvider(this, "random");
