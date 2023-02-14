@@ -9,7 +9,7 @@ class MyStack extends TerraformStack {
   constructor(scope: Construct, id: string) {
     super(scope, id);
     
-    console.log("ok");
+    console.log("okII");
 
     // define resources here
     new RandomProvider(this, "random");
